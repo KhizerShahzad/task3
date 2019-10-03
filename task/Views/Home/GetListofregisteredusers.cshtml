@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "GetListofregisteredusers";
+}
+
+<h2>GetListofregisteredusers</h2>
+
+
+
+
+    <div>
+
+        @{
+
+            var grid = new WebGrid(Model);
+
+        }
+
+        @grid.GetHtml()
+
+    </div>  
